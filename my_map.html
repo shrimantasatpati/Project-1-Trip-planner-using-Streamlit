@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3dd40e86d40f44d1b2cd4742800208d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3dd40e86d40f44d1b2cd4742800208d4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3dd40e86d40f44d1b2cd4742800208d4 = L.map(
+                "map_3dd40e86d40f44d1b2cd4742800208d4",
+                {
+                    center: [17.39566, 78.39178],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_36bbcd643511ae60f3454e71606737eb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_4ae157710b939dde470e85206a970ac3 = L.marker(
+                [17.39566, 78.39178],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_6c1b925490b443c72d85724cdc932df4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_4ae157710b939dde470e85206a970ac3.setIcon(div_icon_6c1b925490b443c72d85724cdc932df4);
+        
+    
+        var popup_24bd7a86fb5f23aa1152b3cbc48f01ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a77c503f8dd4020fd694651decd483f2 = $(`<div id="html_a77c503f8dd4020fd694651decd483f2" style="width: 100.0%; height: 100.0%;">Anantagiri Hills</div>`)[0];
+                popup_24bd7a86fb5f23aa1152b3cbc48f01ec.setContent(html_a77c503f8dd4020fd694651decd483f2);
+            
+        
+
+        marker_4ae157710b939dde470e85206a970ac3.bindPopup(popup_24bd7a86fb5f23aa1152b3cbc48f01ec)
+        ;
+
+        
+    
+    
+            var marker_0655bf24f4dee21d9532fc6cdd3eedb7 = L.marker(
+                [17.406164, 78.469048],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_17cfe667a326f6811692075541ae8cb4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_0655bf24f4dee21d9532fc6cdd3eedb7.setIcon(div_icon_17cfe667a326f6811692075541ae8cb4);
+        
+    
+        var popup_62d700125fda4aa4d2d34070c231df1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_954716e9697f559a6ebb71550de7a6f7 = $(`<div id="html_954716e9697f559a6ebb71550de7a6f7" style="width: 100.0%; height: 100.0%;">Birla Mandir</div>`)[0];
+                popup_62d700125fda4aa4d2d34070c231df1e.setContent(html_954716e9697f559a6ebb71550de7a6f7);
+            
+        
+
+        marker_0655bf24f4dee21d9532fc6cdd3eedb7.bindPopup(popup_62d700125fda4aa4d2d34070c231df1e)
+        ;
+
+        
+    
+    
+            var poly_line_fb9591391f4680a056d677984201af4d = L.polyline(
+                [[17.39566, 78.39178], [17.406164, 78.469048]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_366a229d29cd4c64e802023906c4566c = L.marker(
+                [17.385044, 78.491684],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_c697e11ff70d86579d514eb3cd2b23a3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_366a229d29cd4c64e802023906c4566c.setIcon(div_icon_c697e11ff70d86579d514eb3cd2b23a3);
+        
+    
+        var popup_f9ac7395b3c1833170e28004f5612c7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8301feb3955dda815c53cc40201ab227 = $(`<div id="html_8301feb3955dda815c53cc40201ab227" style="width: 100.0%; height: 100.0%;">Hyderabad</div>`)[0];
+                popup_f9ac7395b3c1833170e28004f5612c7c.setContent(html_8301feb3955dda815c53cc40201ab227);
+            
+        
+
+        marker_366a229d29cd4c64e802023906c4566c.bindPopup(popup_f9ac7395b3c1833170e28004f5612c7c)
+        ;
+
+        
+    
+    
+            var poly_line_20e1c77b9f8c6e60303f5b4c1b6c8a04 = L.polyline(
+                [[17.406164, 78.469048], [17.385044, 78.491684]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_bd72600a99e7789be44b58f2cc6bd170 = L.marker(
+                [17.4085011, 78.5100507],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_003d038c1c3d4506207c82d388d37947 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_bd72600a99e7789be44b58f2cc6bd170.setIcon(div_icon_003d038c1c3d4506207c82d388d37947);
+        
+    
+        var popup_2a8f7660cdd597f66fb4ca27eff65edf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e7a5499159e24354aa7ccaeb4f35c31 = $(`<div id="html_1e7a5499159e24354aa7ccaeb4f35c31" style="width: 100.0%; height: 100.0%;">Abhaya Anjaneya Temple</div>`)[0];
+                popup_2a8f7660cdd597f66fb4ca27eff65edf.setContent(html_1e7a5499159e24354aa7ccaeb4f35c31);
+            
+        
+
+        marker_bd72600a99e7789be44b58f2cc6bd170.bindPopup(popup_2a8f7660cdd597f66fb4ca27eff65edf)
+        ;
+
+        
+    
+    
+            var poly_line_da646e08e40e527820c0cc8d29d4f449 = L.polyline(
+                [[17.385044, 78.491684], [17.4085011, 78.5100507]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_07d53f7548a508b8e303a65ae5926cb4 = L.marker(
+                [17.5086332, 78.3993365],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_dad0ae0127e1a4ee96ba2895ea3593bd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_07d53f7548a508b8e303a65ae5926cb4.setIcon(div_icon_dad0ae0127e1a4ee96ba2895ea3593bd);
+        
+    
+        var popup_fe0b2d944e2ae5e4b88d8b9b01006812 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a65d9d6417e6c070c3a942460491e45b = $(`<div id="html_a65d9d6417e6c070c3a942460491e45b" style="width: 100.0%; height: 100.0%;">Aditya Temple</div>`)[0];
+                popup_fe0b2d944e2ae5e4b88d8b9b01006812.setContent(html_a65d9d6417e6c070c3a942460491e45b);
+            
+        
+
+        marker_07d53f7548a508b8e303a65ae5926cb4.bindPopup(popup_fe0b2d944e2ae5e4b88d8b9b01006812)
+        ;
+
+        
+    
+    
+            var poly_line_76b66f5b906178f03c1564bc09eda020 = L.polyline(
+                [[17.4085011, 78.5100507], [17.5086332, 78.3993365]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_f85ac0003722aa4b7a54d0b1d941eabb = L.marker(
+                [17.8213692, 83.347038],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_ade562a7b16c9fd715f4e9f1d7fd3f08 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: purple; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e4\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_f85ac0003722aa4b7a54d0b1d941eabb.setIcon(div_icon_ade562a7b16c9fd715f4e9f1d7fd3f08);
+        
+    
+        var popup_ac68e4048818ad891eee28c69d99f7fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dfc24f2d8684cd9a8fd5501e6b00415 = $(`<div id="html_8dfc24f2d8684cd9a8fd5501e6b00415" style="width: 100.0%; height: 100.0%;">Ashta Lakshmi Temple</div>`)[0];
+                popup_ac68e4048818ad891eee28c69d99f7fb.setContent(html_8dfc24f2d8684cd9a8fd5501e6b00415);
+            
+        
+
+        marker_f85ac0003722aa4b7a54d0b1d941eabb.bindPopup(popup_ac68e4048818ad891eee28c69d99f7fb)
+        ;
+
+        
+    
+    
+            var poly_line_33c7a3ff6eb7e579f76c3fc46deeb013 = L.polyline(
+                [[17.5086332, 78.3993365], [17.8213692, 83.347038]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_fff55b2f7842f20f27cb4fc5779394c9 = L.marker(
+                [19.9516537, 79.3189424],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_ed07324b1fa1fec105b7365e8e946498 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: blue; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_fff55b2f7842f20f27cb4fc5779394c9.setIcon(div_icon_ed07324b1fa1fec105b7365e8e946498);
+        
+    
+        var popup_65c8c325d3f4bc210263f311835145e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_407bf30198523592d64ad914d2204f49 = $(`<div id="html_407bf30198523592d64ad914d2204f49" style="width: 100.0%; height: 100.0%;">Ashtabhuja Temple</div>`)[0];
+                popup_65c8c325d3f4bc210263f311835145e0.setContent(html_407bf30198523592d64ad914d2204f49);
+            
+        
+
+        marker_fff55b2f7842f20f27cb4fc5779394c9.bindPopup(popup_65c8c325d3f4bc210263f311835145e0)
+        ;
+
+        
+    
+    
+            var poly_line_660f2edc7d04b5dd59b7b1dc1e4f9a22 = L.polyline(
+                [[17.8213692, 83.347038], [19.9516537, 79.3189424]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_b9f9468d98bd1473d11b365fc5ab01f1 = L.marker(
+                [17.3680742, 78.5156883],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_20f97b857a7240dc203c9b84dffbe9d0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_b9f9468d98bd1473d11b365fc5ab01f1.setIcon(div_icon_20f97b857a7240dc203c9b84dffbe9d0);
+        
+    
+        var popup_bfbcef0cf95d7579f498f55f67d0951b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efa41df788dcd621afa8caeb8fcf6907 = $(`<div id="html_efa41df788dcd621afa8caeb8fcf6907" style="width: 100.0%; height: 100.0%;">Asman Garh Palace</div>`)[0];
+                popup_bfbcef0cf95d7579f498f55f67d0951b.setContent(html_efa41df788dcd621afa8caeb8fcf6907);
+            
+        
+
+        marker_b9f9468d98bd1473d11b365fc5ab01f1.bindPopup(popup_bfbcef0cf95d7579f498f55f67d0951b)
+        ;
+
+        
+    
+    
+            var poly_line_a68b9e89c87b183219202c7821c4513d = L.polyline(
+                [[19.9516537, 79.3189424], [17.3680742, 78.5156883]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_e9e46ece74cec9e5349952e91d08d584 = L.marker(
+                [19.5269208, 77.0481295],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_0244e84040de8292f6d4acfba6adcdf9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: blue; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_e9e46ece74cec9e5349952e91d08d584.setIcon(div_icon_0244e84040de8292f6d4acfba6adcdf9);
+        
+    
+        var popup_2b06b5e6f119517ca23fac04201afe69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8aa3a1461d23f2c885903edb40ae9c59 = $(`<div id="html_8aa3a1461d23f2c885903edb40ae9c59" style="width: 100.0%; height: 100.0%;">Aundha Nagnath Temple</div>`)[0];
+                popup_2b06b5e6f119517ca23fac04201afe69.setContent(html_8aa3a1461d23f2c885903edb40ae9c59);
+            
+        
+
+        marker_e9e46ece74cec9e5349952e91d08d584.bindPopup(popup_2b06b5e6f119517ca23fac04201afe69)
+        ;
+
+        
+    
+    
+            var poly_line_6673a1f4a4e4968c3c12a775e7588121 = L.polyline(
+                [[17.3680742, 78.5156883], [19.5269208, 77.0481295]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_e6c5943609968bcddacda8a82059c98d = L.marker(
+                [17.4475911, 78.4490768],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_30977d0a282959106b6218d3b6b76e5c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_e6c5943609968bcddacda8a82059c98d.setIcon(div_icon_30977d0a282959106b6218d3b6b76e5c);
+        
+    
+        var popup_e1169f5a0e33d333890659d75f2b5c4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac21ab9bd17d3e766cdbe618493cfd42 = $(`<div id="html_ac21ab9bd17d3e766cdbe618493cfd42" style="width: 100.0%; height: 100.0%;">Balkampet Yellamma Temple</div>`)[0];
+                popup_e1169f5a0e33d333890659d75f2b5c4d.setContent(html_ac21ab9bd17d3e766cdbe618493cfd42);
+            
+        
+
+        marker_e6c5943609968bcddacda8a82059c98d.bindPopup(popup_e1169f5a0e33d333890659d75f2b5c4d)
+        ;
+
+        
+    
+    
+            var poly_line_26fe515792844d3d93bc6dfdae2db1e2 = L.polyline(
+                [[19.5269208, 77.0481295], [17.4475911, 78.4490768]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_fd7bf9ab4d30bbb20595a7c4731b2b4b = L.marker(
+                [16.1817369, 81.1348181],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_77e7e9485096262b316ef3aedcea6af3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: orange; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e3\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_fd7bf9ab4d30bbb20595a7c4731b2b4b.setIcon(div_icon_77e7e9485096262b316ef3aedcea6af3);
+        
+    
+        var popup_e689e88d1f77cdf752db3d74ec952e61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d669098ce9134af92e3dc4807ae91497 = $(`<div id="html_d669098ce9134af92e3dc4807ae91497" style="width: 100.0%; height: 100.0%;">Bandar</div>`)[0];
+                popup_e689e88d1f77cdf752db3d74ec952e61.setContent(html_d669098ce9134af92e3dc4807ae91497);
+            
+        
+
+        marker_fd7bf9ab4d30bbb20595a7c4731b2b4b.bindPopup(popup_e689e88d1f77cdf752db3d74ec952e61)
+        ;
+
+        
+    
+    
+            var poly_line_7d6761e642b37fa20400aed22e06e1d4 = L.polyline(
+                [[17.4475911, 78.4490768], [16.1817369, 81.1348181]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_4d04333459bca9dbc4c79900d3b09764 = L.marker(
+                [21.14631, 79.08491],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_400c93412e48f68db3c49cfb75051e9e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: blue; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e1\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_4d04333459bca9dbc4c79900d3b09764.setIcon(div_icon_400c93412e48f68db3c49cfb75051e9e);
+        
+    
+        var popup_35594e447003ee1b5a39ed8917a3ef7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fe0f400961c0c60bf0673f2b2e33da3 = $(`<div id="html_3fe0f400961c0c60bf0673f2b2e33da3" style="width: 100.0%; height: 100.0%;">Banibal Nag</div>`)[0];
+                popup_35594e447003ee1b5a39ed8917a3ef7e.setContent(html_3fe0f400961c0c60bf0673f2b2e33da3);
+            
+        
+
+        marker_4d04333459bca9dbc4c79900d3b09764.bindPopup(popup_35594e447003ee1b5a39ed8917a3ef7e)
+        ;
+
+        
+    
+    
+            var poly_line_09887cc99b70286c65f15280f0eab307 = L.polyline(
+                [[16.1817369, 81.1348181], [21.14631, 79.08491]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_8dd08e663ab0ae5dd94ecfabe5ef4e0d = L.marker(
+                [19.0873784, 82.0267233],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_db0de8d044de954dc8d0ac668adc5b5b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: purple; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e4\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_8dd08e663ab0ae5dd94ecfabe5ef4e0d.setIcon(div_icon_db0de8d044de954dc8d0ac668adc5b5b);
+        
+    
+        var popup_68447d09654508f389dfbd3ab68b5ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9b59432bbe117ad7f78113e00fcb50a = $(`<div id="html_d9b59432bbe117ad7f78113e00fcb50a" style="width: 100.0%; height: 100.0%;">Bastar Palace</div>`)[0];
+                popup_68447d09654508f389dfbd3ab68b5ef4.setContent(html_d9b59432bbe117ad7f78113e00fcb50a);
+            
+        
+
+        marker_8dd08e663ab0ae5dd94ecfabe5ef4e0d.bindPopup(popup_68447d09654508f389dfbd3ab68b5ef4)
+        ;
+
+        
+    
+    
+            var poly_line_c64c00c9c21a9b0f6c53102dd823799b = L.polyline(
+                [[21.14631, 79.08491], [19.0873784, 82.0267233]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_f4ab1e2137617672470eeff9f33ee8eb = L.marker(
+                [17.438999, 78.4685809],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_159c386713a935acc70a0104b1cdf11f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_f4ab1e2137617672470eeff9f33ee8eb.setIcon(div_icon_159c386713a935acc70a0104b1cdf11f);
+        
+    
+        var popup_a2c7e8b9ef45883cd1bf68764122edc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1af6501e24113357fc5907e511aee09 = $(`<div id="html_c1af6501e24113357fc5907e511aee09" style="width: 100.0%; height: 100.0%;">Begumpet Mosque</div>`)[0];
+                popup_a2c7e8b9ef45883cd1bf68764122edc8.setContent(html_c1af6501e24113357fc5907e511aee09);
+            
+        
+
+        marker_f4ab1e2137617672470eeff9f33ee8eb.bindPopup(popup_a2c7e8b9ef45883cd1bf68764122edc8)
+        ;
+
+        
+    
+    
+            var poly_line_ffa9be4adfc80ca44eb61934ab2a6c17 = L.polyline(
+                [[19.0873784, 82.0267233], [17.438999, 78.4685809]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var marker_2408bc18cc9b1d5183e1cf85c6cd0c64 = L.marker(
+                [17.9948572, 79.5828724],
+                {}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+    
+            var div_icon_552c7559f1210231d97ba182b1315a2c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027background-color: green; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center;\u0027\u003e2\u003c/div\u003e", "iconAnchor": [15, 15], "iconSize": [30, 30]});
+            marker_2408bc18cc9b1d5183e1cf85c6cd0c64.setIcon(div_icon_552c7559f1210231d97ba182b1315a2c);
+        
+    
+        var popup_1b8972bb9f1acf2ab382ab8846971ba0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d68d484b2b7c959ae13f9ced7e38d73d = $(`<div id="html_d68d484b2b7c959ae13f9ced7e38d73d" style="width: 100.0%; height: 100.0%;">Bhadrakali Temple</div>`)[0];
+                popup_1b8972bb9f1acf2ab382ab8846971ba0.setContent(html_d68d484b2b7c959ae13f9ced7e38d73d);
+            
+        
+
+        marker_2408bc18cc9b1d5183e1cf85c6cd0c64.bindPopup(popup_1b8972bb9f1acf2ab382ab8846971ba0)
+        ;
+
+        
+    
+    
+            var poly_line_a9ae40ab7d3db9acb5eea8ac1be67791 = L.polyline(
+                [[17.438999, 78.4685809], [17.9948572, 79.5828724]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3dd40e86d40f44d1b2cd4742800208d4);
+        
+</script>
+</html>

@@ -1,4 +1,4 @@
-# Project-1-Trip-planner-using-Streamlit
+# Project-1-Feynn-labs-Trip-planner-using-Streamlit
 
 ## Web application to plan a trip with user's required city and number of days to stay
 This project is a web application using streamlit contains **machine learning model** uses **K-means** that produce trip schedule to visit places based on user input. 
